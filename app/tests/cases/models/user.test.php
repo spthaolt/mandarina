@@ -1,4 +1,14 @@
 <?php
+/**
+ * User Test Case
+ *
+ * This class contain all the user model test case.
+ * 
+ * @author Edwin Sandoval
+ * @license http://opensource.org/licenses/gpl-2.0.php GNU Public License
+ * @version 0.1 19/08/2009
+ */
+
 App::import('Model', 'User');
 
 class UserTestCase extends CakeTestCase {
