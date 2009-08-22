@@ -44,6 +44,14 @@
  */
 	define('VALID_YEAR', '/^[12][0-9]{3}$/');
 /**
+ * CUSTOM MANDARINA RULES
+ *
+ * VALID_ID const only support data that is compose for digits but the string size
+ * should be of 11 digits max
+ */
+	define('VALID_ID', '/^[0-9]{1,11}$/');
+
+/**
  * Offers different validation methods.
  *
  * Long description for file
